@@ -20,10 +20,13 @@ require("channels")
 // const imagePath = (name) => images(name, true)
 
 import TurbolinksAdapter from 'vue-turbolinks'
-import Vue from 'vue/dist/vue.esm'
-import App from '../app.vue'
 import 'bootstrap'
 import '../stylesheets/application'
+
+
+
+import Vue from 'vue/dist/vue.esm'
+import App from '../app.vue'
 import BootstrapVue from 'bootstrap-vue'
 
 Vue.use(TurbolinksAdapter)
