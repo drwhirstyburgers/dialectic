@@ -22,6 +22,7 @@ require("channels")
 import TurbolinksAdapter from 'vue-turbolinks'
 import Vue from 'vue/dist/vue.esm'
 import App from '../app.vue'
+import 'bootstrap'
 import '../stylesheets/application'
 import BootstrapVue from 'bootstrap-vue'
 
